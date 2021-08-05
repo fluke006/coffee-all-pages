@@ -1,0 +1,48 @@
+.header{
+   padding-top: 45px;
+   margin-bottom: 35px;
+}
+
+.header .container{
+   display: flex;
+   align-items: center;
+}
+
+.logo__link{
+   margin-right: auto;
+   text-decoration: none
+}
+
+.nav {
+   display: flex;
+   margin-left: auto;
+}
+
+.nav__list {
+   display: flex;
+   align-items: center;
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+
+.nav__link{
+   padding-right: 33px;
+   font-family: "Barlow";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 12px;
+   line-height: 15px;
+   text-decoration: none;
+   letter-spacing: 0.923077px;
+   text-transform: uppercase;
+   color: $header-link-color;
+}
+
+.nav__link:hover{
+   color: $header-link-color-active;
+}
+
+.nav__link--active{
+   color: $header-link-color-active;
+}

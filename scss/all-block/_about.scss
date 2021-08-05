@@ -1,0 +1,37 @@
+.about{
+   margin-bottom: 168px;
+}
+
+.about .container{
+   padding: 115px 85px;
+   background-image: url("../image/Bitmap-about.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 10px;
+}
+
+.about__page{
+   width: 445px;
+   margin-left: 90px;
+}
+
+.about-page__heading{
+   margin-top: 0px;
+   margin-bottom: 32px;
+   font-family: "Fraunces";
+   font-style: normal;
+   font-weight: 900;
+   font-size: 40px;
+   line-height: 48px;
+   color: #FEFCF7;
+}
+
+.about-page__info{
+   margin-top: 0;
+   font-family: "Barlow";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 26px;
+   color: #FEFCF7;
+}

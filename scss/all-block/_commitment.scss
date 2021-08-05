@@ -1,0 +1,52 @@
+.commitment{
+   margin-bottom: 168px;
+}
+
+.commitment .container{
+   padding-top: 115px;  
+   padding-bottom: 168px;
+}
+
+.commitment__page{
+   position: relative;
+   width: 540px;
+   margin-left: auto;
+}
+
+.commitment__span{
+   position: absolute;
+   top: -50%;
+   right: 820px;
+   display: block;
+   width: 485px;
+   height: 606px;
+   background-image: url("../image/Bitmap-commitment.jpg");
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: 135px;
+   border-radius: 10px;
+   content: "";
+}
+
+.commitment-page__heading{
+   margin-top: 0;
+   margin-bottom: 32px;
+   font-family: "Fraunces";
+   font-style: normal;
+   font-weight: 900;
+   font-size: 40px;
+   line-height: 48px;
+   color: #333D4B;
+}
+
+.commitment-page__info{
+   margin-top: 0;
+   font-family: "Barlow";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 26px;
+   color: #333D4B;
+   mix-blend-mode: normal;
+   opacity: 0.8;
+}

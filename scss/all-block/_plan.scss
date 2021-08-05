@@ -1,0 +1,49 @@
+.plan{
+   height: 600px;
+   margin-bottom: 10px;
+}
+
+.plan__page{
+   position: relative;
+}
+
+.plan__span {
+   position: absolute;
+   z-index: -1;
+   left: 2px;
+   top: -80px;
+   display: block;
+   width: 1280px;
+   height: 600px;
+   background-image: url("../image/Bitmap-plan.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+   content: "";
+}
+
+.plan__heading{
+   width: 493px;
+   margin-top: 115px;
+   margin-bottom: 32px;
+   margin-left: 90px;
+   font-family: "Fraunces 9pt";
+   font-style: normal;
+   font-weight: 900;
+   font-size: 72px;
+   line-height: 72px ;
+   color: #FEFCF7;
+}  
+
+.plan__info{
+   width: 445px;
+   margin-left: 90px;
+   margin-bottom: 56px;
+   font-family: "Barlow";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 26px;
+   color: #FEFCF7;
+   mix-blend-mode: normal;
+   opacity: 0.8;
+}

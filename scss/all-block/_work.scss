@@ -1,0 +1,140 @@
+.work{
+   margin-bottom: 200px;
+}
+
+.work .container{
+   position: relative;
+}
+
+.work__heading{
+   margin-left: 200px;
+   margin-bottom: 24px;
+   font-family: "Fraunces";
+   font-style: normal;
+   font-weight: 900;
+   font-size: 24px;
+   line-height: 32px;
+   color: #83888F;
+}
+
+.work__span{
+   position: absolute;
+   display: block;
+   width: 31px;
+   height: 31px;
+   top: 80px;
+   right: 355px;
+   background-color: #ffffff;
+   border: 2px solid  #0E8784;
+   border-radius: 50%;
+}
+
+.work__span-two{
+   position: absolute;
+   display: block;
+   width: 31px;
+   height: 31px;
+   top: 80px;
+   left: 195px;
+   background-color: #ffffff;
+   border: 2px solid  #0E8784;
+   border-radius: 50%;
+}
+
+.work__span-three{
+   position: absolute;
+   display: block;
+   width: 31px;
+   height: 31px;
+   top: 80px;
+   left: 560px;
+   background-color: #ffffff;
+   border: 2px solid  #0E8784;
+   border-radius: 50%;
+}
+
+.work__span-light{
+   position: absolute;
+   display: flex;
+   width: 760px;
+   height: 1px;
+   top: 95px;
+   left: 211px;
+   border: 2px solid #FDD6BA;
+}
+
+.work__list{
+   display: flex;
+   margin: 0;
+   margin-top: 200px;
+   margin-left: 200px;
+   margin-bottom: 80px;
+   padding: 0;
+   list-style-type: none;
+}
+
+.work__item{
+   position: relative;
+   width: 290px;
+   margin-right: 90px;
+   padding-top: 100px;
+}
+
+.work__item:nth-child(1)::before{
+   position: absolute;
+   top: 10px;
+   font-family: "Fraunces";
+   font-style: normal;
+   font-weight: 900;
+   font-size: 72px;
+   line-height: 72px;
+   color: #FDD6BA;
+   content: "01";
+}
+
+.work__item:nth-child(2)::before{
+   position: absolute;
+   top: 10px;
+   font-family: "Fraunces";
+   font-style: normal;
+   font-weight: 900;
+   font-size: 72px;
+   line-height: 72px;
+   color: #FDD6BA;
+   content: "02";
+}
+
+.work__item:nth-child(3)::before{
+   position: absolute;
+   top: 10px;
+   font-family: "Fraunces";
+   font-style: normal;
+   font-weight: 900;
+   font-size: 72px;
+   line-height: 72px;
+   color: #FDD6BA;
+   content: "03";
+}
+
+.work-item__heading{
+   font-family: "Fraunces";
+   font-style: normal;
+   font-weight: 900;
+   font-size: 32px;
+   line-height: 36px;
+   color: #333D4B;
+}
+
+.work-item__info{
+   width: 285px;
+   font-family: "Barlow";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 26px;
+   color: #333D4B;
+}
+
+.hero__link--work{
+   margin-left: 200px;
+}
